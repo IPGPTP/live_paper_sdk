@@ -1,0 +1,26 @@
+{
+    "user": {
+        "firstName": "my name",
+        "lastName": "last name",
+        "name": "name",
+        "email": "name@hp.com",
+        "scope": [
+                  "default",
+                  "link_app"
+                  ],
+        "clientId": "my_client_id",
+        "clientSecret": "my_client_secret",
+        "dateCreated": "2015-08-31T18:17:41.000+0000",
+        "dateModified": "2016-11-01T17:45:43.000+0000",
+        "link": [
+                 {
+                 "rel": "self",
+                 "href": "https://stage.livepaperapi.com/auth/v2/users/my_client_id"
+                 },
+                 {
+                 "rel": "defaultAccount",
+                 "href": "https://stage.livepaperapi.com/auth/v2/accounts/account_id"
+                 }
+                 ]
+    }
+}

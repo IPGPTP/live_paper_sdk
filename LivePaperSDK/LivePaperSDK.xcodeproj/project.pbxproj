@@ -1,0 +1,1353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A9F254DC1E7B402E002A9BEB /* LivePaperSDK-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A9F254DD1E7B402E002A9BEB /* Build configuration list for PBXAggregateTarget "LivePaperSDK-Universal" */;
+			buildPhases = (
+				A9F254E01E7B4038002A9BEB /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "LivePaperSDK-Universal";
+			productName = "LivePaperSDK-Universal";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		37F9B2314BC01E9252A2A81E /* libPods-LivePaperSDKTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 909C15882EC48A803B374898 /* libPods-LivePaperSDKTests.a */; };
+		5EF3D6041B322C0E000243F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF3D6031B322C0E000243F9 /* main.m */; };
+		5EF3D6071B322C0E000243F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF3D6061B322C0E000243F9 /* AppDelegate.m */; };
+		5EF3D60D1B322C0E000243F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF3D60B1B322C0E000243F9 /* Main.storyboard */; };
+		5EF3D60F1B322C0E000243F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF3D60E1B322C0E000243F9 /* Images.xcassets */; };
+		5EF3D6121B322C0E000243F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EF3D6101B322C0E000243F9 /* LaunchScreen.xib */; };
+		6CD8F775F92898B5BAA98ADB /* libPods-LivePaperSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6E89243C4A4FF250956AA5 /* libPods-LivePaperSDK.a */; };
+		74100C4A1BE91BF40049926A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74100C461BE917310049926A /* ImageIO.framework */; };
+		74D219751E4BF775001EAD1E /* LPSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D219741E4BF775001EAD1E /* LPSessionTests.m */; };
+		74D219781E4CDE2A001EAD1E /* project_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 74D219771E4CDE2A001EAD1E /* project_list.json */; };
+		74D2197A1E4CEFE2001EAD1E /* project_get.json in Resources */ = {isa = PBXBuildFile; fileRef = 74D219791E4CEFE2001EAD1E /* project_get.json */; };
+		74D2197E1E4D48D6001EAD1E /* SelectProjectEntityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D2197D1E4D48D6001EAD1E /* SelectProjectEntityCell.swift */; };
+		74D219841E4D48FD001EAD1E /* CellDataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D219801E4D48FD001EAD1E /* CellDataContainer.swift */; };
+		74D219851E4D48FD001EAD1E /* TextCellDataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D219811E4D48FD001EAD1E /* TextCellDataContainer.swift */; };
+		74D219861E4D48FD001EAD1E /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D219821E4D48FD001EAD1E /* TextFieldTableViewCell.swift */; };
+		74D219871E4D48FD001EAD1E /* TextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74D219831E4D48FD001EAD1E /* TextFieldTableViewCell.xib */; };
+		74D219891E4D49EF001EAD1E /* SelectProjectEntityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74D219881E4D49EF001EAD1E /* SelectProjectEntityCell.xib */; };
+		74D2198B1E4D4AE0001EAD1E /* SelectProjectEntityDataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D2198A1E4D4AE0001EAD1E /* SelectProjectEntityDataContainer.swift */; };
+		74D219931E4E2A93001EAD1E /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D2198E1E4E2A93001EAD1E /* BaseTableViewController.swift */; };
+		74D219941E4E2A93001EAD1E /* EntityDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D2198F1E4E2A93001EAD1E /* EntityDetailsTableViewController.swift */; };
+		74D219951E4E2A93001EAD1E /* ProjectEntityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D219901E4E2A93001EAD1E /* ProjectEntityTableViewController.swift */; };
+		74D219961E4E2A93001EAD1E /* ProjectsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D219911E4E2A93001EAD1E /* ProjectsTableViewController.swift */; };
+		74D219971E4E2A93001EAD1E /* SelectProjectEntityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D219921E4E2A93001EAD1E /* SelectProjectEntityTableViewController.swift */; };
+		74D2199A1E4E4D00001EAD1E /* link_get.json in Resources */ = {isa = PBXBuildFile; fileRef = 74D219981E4E4D00001EAD1E /* link_get.json */; };
+		74D2199B1E4E4D00001EAD1E /* link_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 74D219991E4E4D00001EAD1E /* link_list.json */; };
+		74D2199F1E4E52A2001EAD1E /* trigger_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 74D2199D1E4E52A2001EAD1E /* trigger_list.json */; };
+		74D219A21E4E69C5001EAD1E /* HPMockHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D219A11E4E69C5001EAD1E /* HPMockHelper.m */; };
+		74D219A41E4E6B7D001EAD1E /* watermarked.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 74D219A31E4E6B7D001EAD1E /* watermarked.jpeg */; };
+		74D219A71E4E6D52001EAD1E /* trigger_get_qr.json in Resources */ = {isa = PBXBuildFile; fileRef = 74D219A51E4E6D52001EAD1E /* trigger_get_qr.json */; };
+		74D219A81E4E6D52001EAD1E /* trigger_get_wm.json in Resources */ = {isa = PBXBuildFile; fileRef = 74D219A61E4E6D52001EAD1E /* trigger_get_wm.json */; };
+		74D219AA1E4E9185001EAD1E /* qrcode.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 74D219A91E4E9185001EAD1E /* qrcode.jpeg */; };
+		74D219AE1E4E98A9001EAD1E /* EXIF_5ppi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 74D219AB1E4E98A9001EAD1E /* EXIF_5ppi.jpeg */; };
+		74D219AF1E4E98A9001EAD1E /* JFIF_200ppi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74D219AC1E4E98A9001EAD1E /* JFIF_200ppi.jpg */; };
+		74D219B01E4E98A9001EAD1E /* No_PPI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74D219AD1E4E98A9001EAD1E /* No_PPI.jpg */; };
+		74D219B41E4E9E0F001EAD1E /* payoff_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 74D219B21E4E9E0F001EAD1E /* payoff_list.json */; };
+		74D219B71E4E9E82001EAD1E /* payoff_get_rich.json in Resources */ = {isa = PBXBuildFile; fileRef = 74D219B51E4E9E82001EAD1E /* payoff_get_rich.json */; };
+		74D219B81E4E9E82001EAD1E /* payoff_get_url.json in Resources */ = {isa = PBXBuildFile; fileRef = 74D219B61E4E9E82001EAD1E /* payoff_get_url.json */; };
+		74D219BA1E4EAC10001EAD1E /* trigger_get_short.json in Resources */ = {isa = PBXBuildFile; fileRef = 74D219B91E4EAC10001EAD1E /* trigger_get_short.json */; };
+		74D219BC1E523F98001EAD1E /* user_get.json in Resources */ = {isa = PBXBuildFile; fileRef = 74D219BB1E523F98001EAD1E /* user_get.json */; };
+		A94C11811E4A9E0B00C7E82D /* forest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A94C11801E4A9E0B00C7E82D /* forest.jpg */; };
+		A94C11821E4A9F6300C7E82D /* LPPayoffTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EEC5661BDEDCC5001CA90B /* LPPayoffTests.m */; };
+		A94C11831E4A9F7500C7E82D /* LPProjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C117D1E48E9FC00C7E82D /* LPProjectTest.m */; };
+		A94C11841E4B8ABF00C7E82D /* HPTestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5D1E91BE1487900213F9F /* HPTestData.m */; };
+		A94C11851E4B8AC400C7E82D /* LPTriggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EEC5681BDEE768001CA90B /* LPTriggerTests.m */; };
+		A94C11861E4B8AC800C7E82D /* LPLinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5D1EE1BE153F600213F9F /* LPLinkTests.m */; };
+		A94C11871E4B8ACA00C7E82D /* LPBaseTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C117A1E455B9700C7E82D /* LPBaseTestCase.m */; };
+		A94C118E1E57757C00C7E82D /* release_strip_archs.sh in Resources */ = {isa = PBXBuildFile; fileRef = A94C118D1E57757C00C7E82D /* release_strip_archs.sh */; };
+		A94C14AD1E57BAC500C7E82D /* LPConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C146E1E57BAC500C7E82D /* LPConfiguration.h */; };
+		A94C14AE1E57BAC500C7E82D /* LPConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C146F1E57BAC500C7E82D /* LPConfiguration.m */; };
+		A94C14AF1E57BAC500C7E82D /* LPStack.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C14701E57BAC500C7E82D /* LPStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A94C14B01E57BAC500C7E82D /* LivePaperSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C14711E57BAC500C7E82D /* LivePaperSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A94C14B11E57BAC500C7E82D /* LPDate.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C14721E57BAC500C7E82D /* LPDate.h */; };
+		A94C14B21E57BAC500C7E82D /* LPDate.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C14731E57BAC500C7E82D /* LPDate.m */; };
+		A94C14B31E57BAC500C7E82D /* LPSession.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C14741E57BAC500C7E82D /* LPSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A94C14B41E57BAC500C7E82D /* LPSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C14751E57BAC500C7E82D /* LPSession.m */; };
+		A94C14B51E57BAC500C7E82D /* LPSessionPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C14761E57BAC500C7E82D /* LPSessionPrivate.h */; };
+		A94C14B61E57BAC500C7E82D /* LPAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C14781E57BAC500C7E82D /* LPAccount.h */; };
+		A94C14B71E57BAC500C7E82D /* LPAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C14791E57BAC500C7E82D /* LPAccount.m */; };
+		A94C14B81E57BAC500C7E82D /* LPBaseEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C147A1E57BAC500C7E82D /* LPBaseEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A94C14B91E57BAC500C7E82D /* LPBaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C147B1E57BAC500C7E82D /* LPBaseEntity.m */; };
+		A94C14BA1E57BAC500C7E82D /* LPBaseEntityPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C147C1E57BAC500C7E82D /* LPBaseEntityPrivate.h */; };
+		A94C14BB1E57BAC500C7E82D /* LPLink.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C147D1E57BAC500C7E82D /* LPLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A94C14BC1E57BAC500C7E82D /* LPLink.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C147E1E57BAC500C7E82D /* LPLink.m */; };
+		A94C14BD1E57BAC500C7E82D /* LPPayoff.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C147F1E57BAC500C7E82D /* LPPayoff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A94C14BE1E57BAC500C7E82D /* LPPayoff.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C14801E57BAC500C7E82D /* LPPayoff.m */; };
+		A94C14BF1E57BAC500C7E82D /* LPProject.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C14811E57BAC500C7E82D /* LPProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A94C14C01E57BAC500C7E82D /* LPProject.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C14821E57BAC500C7E82D /* LPProject.m */; };
+		A94C14C11E57BAC500C7E82D /* LPProjectEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C14831E57BAC500C7E82D /* LPProjectEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A94C14C21E57BAC500C7E82D /* LPProjectEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C14841E57BAC500C7E82D /* LPProjectEntity.m */; };
+		A94C14C31E57BAC500C7E82D /* LPProjectEntityPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C14851E57BAC500C7E82D /* LPProjectEntityPrivate.h */; };
+		A94C14C41E57BAC500C7E82D /* LPTrigger.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C14861E57BAC500C7E82D /* LPTrigger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A94C14C51E57BAC500C7E82D /* LPTrigger.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C14871E57BAC500C7E82D /* LPTrigger.m */; };
+		A94C14C61E57BAC500C7E82D /* LPUser.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C14881E57BAC500C7E82D /* LPUser.h */; };
+		A94C14C71E57BAC500C7E82D /* LPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C14891E57BAC500C7E82D /* LPUser.m */; };
+		A94C14D11E57BAC500C7E82D /* LPAuthenticatedNetworkOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C14971E57BAC500C7E82D /* LPAuthenticatedNetworkOperation.h */; };
+		A94C14D21E57BAC500C7E82D /* LPAuthenticatedNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C14981E57BAC500C7E82D /* LPAuthenticatedNetworkOperation.m */; };
+		A94C14D31E57BAC500C7E82D /* LPBaseNetworkOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C14991E57BAC500C7E82D /* LPBaseNetworkOperation.h */; };
+		A94C14D41E57BAC500C7E82D /* LPBaseNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C149A1E57BAC500C7E82D /* LPBaseNetworkOperation.m */; };
+		A94C14D51E57BAC500C7E82D /* LRBaseNetworkOperation+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C149B1E57BAC500C7E82D /* LRBaseNetworkOperation+Private.h */; };
+		A94C14D61E57BAC500C7E82D /* LPGetImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C149C1E57BAC500C7E82D /* LPGetImageOperation.h */; };
+		A94C14D71E57BAC500C7E82D /* LPGetImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C149D1E57BAC500C7E82D /* LPGetImageOperation.m */; };
+		A94C14D81E57BAC500C7E82D /* LPGetTokenOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C149E1E57BAC500C7E82D /* LPGetTokenOperation.h */; };
+		A94C14D91E57BAC500C7E82D /* LPGetTokenOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C149F1E57BAC500C7E82D /* LPGetTokenOperation.m */; };
+		A94C14DE1E57BAC500C7E82D /* LPContainerResource.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C14A61E57BAC500C7E82D /* LPContainerResource.h */; };
+		A94C14DF1E57BAC500C7E82D /* LPContainerResource.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C14A71E57BAC500C7E82D /* LPContainerResource.m */; };
+		A94C14E21E57BAC500C7E82D /* LPErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = A94C14AB1E57BAC500C7E82D /* LPErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A94C14E31E57BAC500C7E82D /* LPErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C14AC1E57BAC500C7E82D /* LPErrors.m */; };
+		A991C3871DFF2717002DE2B4 /* LivePaperSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740A54B01DF619B000CC23AF /* LivePaperSDK.framework */; };
+		A991C3891DFF2740002DE2B4 /* LivePaperSDK.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 740A54B01DF619B000CC23AF /* LivePaperSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A9A7E3EA1E1C3AA000D72E40 /* GetTokenSuccess.json in Resources */ = {isa = PBXBuildFile; fileRef = A9A7E3E81E1C3A9F00D72E40 /* GetTokenSuccess.json */; };
+		A9F255141E7C98DC002A9BEB /* Photoshop_180ppi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A9F255131E7C98DC002A9BEB /* Photoshop_180ppi.jpeg */; };
+		B73BEFAA9D3BD0C21842C16B /* Pods_LivePaperSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CE3659071F37096EF228ED /* Pods_LivePaperSample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A991C3851DFF270E002DE2B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8165401A859C1E0091D4B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 740A54AF1DF619B000CC23AF;
+			remoteInfo = LivePaperSDK;
+		};
+		A9A7E3C51E1C2E3F00D72E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8165401A859C1E0091D4B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EF3D5FE1B322C0D000243F9;
+			remoteInfo = LivePaperSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A991C3881DFF271C002DE2B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A991C3891DFF2740002DE2B4 /* LivePaperSDK.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C6E89243C4A4FF250956AA5 /* libPods-LivePaperSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LivePaperSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12CE3659071F37096EF228ED /* Pods_LivePaperSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LivePaperSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8165531A859C1E0091D4B5 /* LivePaperSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivePaperSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8165591A859C1E0091D4B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8165621A859C820091D4B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2C81656A1A859DDB0091D4B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4BC93B5E937D33E6C525B683 /* Pods-LivePaperSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivePaperSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LivePaperSample/Pods-LivePaperSample.debug.xcconfig"; sourceTree = "<group>"; };
+		59E406836E98524894DED1B3 /* Pods-LivePaperSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivePaperSDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LivePaperSDKTests/Pods-LivePaperSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		5EF3D5FF1B322C0D000243F9 /* LivePaperSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivePaperSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF3D6021B322C0E000243F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EF3D6031B322C0E000243F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EF3D6051B322C0E000243F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EF3D6061B322C0E000243F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EF3D60C1B322C0E000243F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EF3D60E1B322C0E000243F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5EF3D6111B322C0E000243F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		63335FC11EC2349305656873 /* Pods-LivePaperSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivePaperSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-LivePaperSample/Pods-LivePaperSample.release.xcconfig"; sourceTree = "<group>"; };
+		740A54B01DF619B000CC23AF /* LivePaperSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LivePaperSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		740A54BB1DF619FF00CC23AF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74100C461BE917310049926A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		74D219741E4BF775001EAD1E /* LPSessionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSessionTests.m; sourceTree = "<group>"; };
+		74D219771E4CDE2A001EAD1E /* project_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = project_list.json; sourceTree = "<group>"; };
+		74D219791E4CEFE2001EAD1E /* project_get.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = project_get.json; sourceTree = "<group>"; };
+		74D2197D1E4D48D6001EAD1E /* SelectProjectEntityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectProjectEntityCell.swift; sourceTree = "<group>"; };
+		74D219801E4D48FD001EAD1E /* CellDataContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellDataContainer.swift; sourceTree = "<group>"; };
+		74D219811E4D48FD001EAD1E /* TextCellDataContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCellDataContainer.swift; sourceTree = "<group>"; };
+		74D219821E4D48FD001EAD1E /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		74D219831E4D48FD001EAD1E /* TextFieldTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldTableViewCell.xib; sourceTree = "<group>"; };
+		74D219881E4D49EF001EAD1E /* SelectProjectEntityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectProjectEntityCell.xib; sourceTree = "<group>"; };
+		74D2198A1E4D4AE0001EAD1E /* SelectProjectEntityDataContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectProjectEntityDataContainer.swift; sourceTree = "<group>"; };
+		74D2198E1E4E2A93001EAD1E /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		74D2198F1E4E2A93001EAD1E /* EntityDetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityDetailsTableViewController.swift; sourceTree = "<group>"; };
+		74D219901E4E2A93001EAD1E /* ProjectEntityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectEntityTableViewController.swift; sourceTree = "<group>"; };
+		74D219911E4E2A93001EAD1E /* ProjectsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewController.swift; sourceTree = "<group>"; };
+		74D219921E4E2A93001EAD1E /* SelectProjectEntityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectProjectEntityTableViewController.swift; sourceTree = "<group>"; };
+		74D219981E4E4D00001EAD1E /* link_get.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = link_get.json; sourceTree = "<group>"; };
+		74D219991E4E4D00001EAD1E /* link_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = link_list.json; sourceTree = "<group>"; };
+		74D2199D1E4E52A2001EAD1E /* trigger_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trigger_list.json; sourceTree = "<group>"; };
+		74D219A01E4E69C5001EAD1E /* HPMockHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPMockHelper.h; sourceTree = "<group>"; };
+		74D219A11E4E69C5001EAD1E /* HPMockHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPMockHelper.m; sourceTree = "<group>"; };
+		74D219A31E4E6B7D001EAD1E /* watermarked.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = watermarked.jpeg; sourceTree = "<group>"; };
+		74D219A51E4E6D52001EAD1E /* trigger_get_qr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trigger_get_qr.json; sourceTree = "<group>"; };
+		74D219A61E4E6D52001EAD1E /* trigger_get_wm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trigger_get_wm.json; sourceTree = "<group>"; };
+		74D219A91E4E9185001EAD1E /* qrcode.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qrcode.jpeg; sourceTree = "<group>"; };
+		74D219AB1E4E98A9001EAD1E /* EXIF_5ppi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EXIF_5ppi.jpeg; sourceTree = "<group>"; };
+		74D219AC1E4E98A9001EAD1E /* JFIF_200ppi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JFIF_200ppi.jpg; sourceTree = "<group>"; };
+		74D219AD1E4E98A9001EAD1E /* No_PPI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = No_PPI.jpg; sourceTree = "<group>"; };
+		74D219B21E4E9E0F001EAD1E /* payoff_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = payoff_list.json; sourceTree = "<group>"; };
+		74D219B51E4E9E82001EAD1E /* payoff_get_rich.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = payoff_get_rich.json; sourceTree = "<group>"; };
+		74D219B61E4E9E82001EAD1E /* payoff_get_url.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = payoff_get_url.json; sourceTree = "<group>"; };
+		74D219B91E4EAC10001EAD1E /* trigger_get_short.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trigger_get_short.json; sourceTree = "<group>"; };
+		74D219BB1E523F98001EAD1E /* user_get.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user_get.json; sourceTree = "<group>"; };
+		74EEC5661BDEDCC5001CA90B /* LPPayoffTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPPayoffTests.m; sourceTree = "<group>"; };
+		74EEC5681BDEE768001CA90B /* LPTriggerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPTriggerTests.m; sourceTree = "<group>"; };
+		74F5D1E81BE1487900213F9F /* HPTestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPTestData.h; path = ../Data/HPTestData.h; sourceTree = "<group>"; };
+		74F5D1E91BE1487900213F9F /* HPTestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPTestData.m; path = ../Data/HPTestData.m; sourceTree = "<group>"; };
+		74F5D1EE1BE153F600213F9F /* LPLinkTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPLinkTests.m; sourceTree = "<group>"; };
+		7FE8AB0D082BF19548B0BD00 /* Pods-LivePaperSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivePaperSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LivePaperSDKTests/Pods-LivePaperSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A8193D9503582833CD7954F /* Pods-LivePaperSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivePaperSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-LivePaperSDK/Pods-LivePaperSDK.release.xcconfig"; sourceTree = "<group>"; };
+		909C15882EC48A803B374898 /* libPods-LivePaperSDKTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LivePaperSDKTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		935F963D86468D86A0E9F622 /* Pods-LivePaperSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivePaperSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LivePaperSDK/Pods-LivePaperSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		A929767A1E3A6E7F005116B0 /* LivePaperSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LivePaperSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		A94C117A1E455B9700C7E82D /* LPBaseTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPBaseTestCase.m; sourceTree = "<group>"; };
+		A94C117C1E455BC400C7E82D /* LPBaseTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPBaseTestCase.h; sourceTree = "<group>"; };
+		A94C117D1E48E9FC00C7E82D /* LPProjectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPProjectTest.m; sourceTree = "<group>"; };
+		A94C11801E4A9E0B00C7E82D /* forest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forest.jpg; sourceTree = "<group>"; };
+		A94C118D1E57757C00C7E82D /* release_strip_archs.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = release_strip_archs.sh; sourceTree = "<group>"; };
+		A94C146E1E57BAC500C7E82D /* LPConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPConfiguration.h; sourceTree = "<group>"; };
+		A94C146F1E57BAC500C7E82D /* LPConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPConfiguration.m; sourceTree = "<group>"; };
+		A94C14701E57BAC500C7E82D /* LPStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPStack.h; sourceTree = "<group>"; };
+		A94C14711E57BAC500C7E82D /* LivePaperSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivePaperSDK.h; sourceTree = "<group>"; };
+		A94C14721E57BAC500C7E82D /* LPDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPDate.h; sourceTree = "<group>"; };
+		A94C14731E57BAC500C7E82D /* LPDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPDate.m; sourceTree = "<group>"; };
+		A94C14741E57BAC500C7E82D /* LPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSession.h; sourceTree = "<group>"; };
+		A94C14751E57BAC500C7E82D /* LPSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSession.m; sourceTree = "<group>"; };
+		A94C14761E57BAC500C7E82D /* LPSessionPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSessionPrivate.h; sourceTree = "<group>"; };
+		A94C14781E57BAC500C7E82D /* LPAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPAccount.h; sourceTree = "<group>"; };
+		A94C14791E57BAC500C7E82D /* LPAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPAccount.m; sourceTree = "<group>"; };
+		A94C147A1E57BAC500C7E82D /* LPBaseEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPBaseEntity.h; sourceTree = "<group>"; };
+		A94C147B1E57BAC500C7E82D /* LPBaseEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPBaseEntity.m; sourceTree = "<group>"; };
+		A94C147C1E57BAC500C7E82D /* LPBaseEntityPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPBaseEntityPrivate.h; sourceTree = "<group>"; };
+		A94C147D1E57BAC500C7E82D /* LPLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPLink.h; sourceTree = "<group>"; };
+		A94C147E1E57BAC500C7E82D /* LPLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPLink.m; sourceTree = "<group>"; };
+		A94C147F1E57BAC500C7E82D /* LPPayoff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPPayoff.h; sourceTree = "<group>"; };
+		A94C14801E57BAC500C7E82D /* LPPayoff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPPayoff.m; sourceTree = "<group>"; };
+		A94C14811E57BAC500C7E82D /* LPProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPProject.h; sourceTree = "<group>"; };
+		A94C14821E57BAC500C7E82D /* LPProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPProject.m; sourceTree = "<group>"; };
+		A94C14831E57BAC500C7E82D /* LPProjectEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPProjectEntity.h; sourceTree = "<group>"; };
+		A94C14841E57BAC500C7E82D /* LPProjectEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPProjectEntity.m; sourceTree = "<group>"; };
+		A94C14851E57BAC500C7E82D /* LPProjectEntityPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPProjectEntityPrivate.h; sourceTree = "<group>"; };
+		A94C14861E57BAC500C7E82D /* LPTrigger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPTrigger.h; sourceTree = "<group>"; };
+		A94C14871E57BAC500C7E82D /* LPTrigger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPTrigger.m; sourceTree = "<group>"; };
+		A94C14881E57BAC500C7E82D /* LPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPUser.h; sourceTree = "<group>"; };
+		A94C14891E57BAC500C7E82D /* LPUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPUser.m; sourceTree = "<group>"; };
+		A94C14971E57BAC500C7E82D /* LPAuthenticatedNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPAuthenticatedNetworkOperation.h; sourceTree = "<group>"; };
+		A94C14981E57BAC500C7E82D /* LPAuthenticatedNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPAuthenticatedNetworkOperation.m; sourceTree = "<group>"; };
+		A94C14991E57BAC500C7E82D /* LPBaseNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPBaseNetworkOperation.h; sourceTree = "<group>"; };
+		A94C149A1E57BAC500C7E82D /* LPBaseNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPBaseNetworkOperation.m; sourceTree = "<group>"; };
+		A94C149B1E57BAC500C7E82D /* LRBaseNetworkOperation+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LRBaseNetworkOperation+Private.h"; sourceTree = "<group>"; };
+		A94C149C1E57BAC500C7E82D /* LPGetImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPGetImageOperation.h; sourceTree = "<group>"; };
+		A94C149D1E57BAC500C7E82D /* LPGetImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPGetImageOperation.m; sourceTree = "<group>"; };
+		A94C149E1E57BAC500C7E82D /* LPGetTokenOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPGetTokenOperation.h; sourceTree = "<group>"; };
+		A94C149F1E57BAC500C7E82D /* LPGetTokenOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPGetTokenOperation.m; sourceTree = "<group>"; };
+		A94C14A61E57BAC500C7E82D /* LPContainerResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPContainerResource.h; sourceTree = "<group>"; };
+		A94C14A71E57BAC500C7E82D /* LPContainerResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPContainerResource.m; sourceTree = "<group>"; };
+		A94C14AB1E57BAC500C7E82D /* LPErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPErrors.h; sourceTree = "<group>"; };
+		A94C14AC1E57BAC500C7E82D /* LPErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPErrors.m; sourceTree = "<group>"; };
+		A95243A71E27FC3100F10F29 /* LPBaseNetworkingTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPBaseNetworkingTestCase.m; sourceTree = "<group>"; };
+		A95243AB1E2800FF00F10F29 /* HPTestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTestHelper.h; sourceTree = "<group>"; };
+		A95243AC1E2800FF00F10F29 /* HPTestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTestHelper.m; sourceTree = "<group>"; };
+		A9A7E3E61E1C3A9F00D72E40 /* LPGetTokenOperationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPGetTokenOperationTest.m; sourceTree = "<group>"; };
+		A9A7E3E81E1C3A9F00D72E40 /* GetTokenSuccess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTokenSuccess.json; sourceTree = "<group>"; };
+		A9A7E3EB1E1C3B7000D72E40 /* LPAuthenticatedNetworkOperationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPAuthenticatedNetworkOperationTest.m; sourceTree = "<group>"; };
+		A9C2E73C1E1C5215001AF3D9 /* LRBaseNetworkOperationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRBaseNetworkOperationTest.m; sourceTree = "<group>"; };
+		A9C2E7401E1C52E1001AF3D9 /* LPBaseNetworkingTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPBaseNetworkingTestCase.h; sourceTree = "<group>"; };
+		A9F255131E7C98DC002A9BEB /* Photoshop_180ppi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photoshop_180ppi.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C8165501A859C1E0091D4B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74100C4A1BE91BF40049926A /* ImageIO.framework in Frameworks */,
+				37F9B2314BC01E9252A2A81E /* libPods-LivePaperSDKTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF3D5FC1B322C0D000243F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A991C3871DFF2717002DE2B4 /* LivePaperSDK.framework in Frameworks */,
+				B73BEFAA9D3BD0C21842C16B /* Pods_LivePaperSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740A54AC1DF619B000CC23AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD8F775F92898B5BAA98ADB /* libPods-LivePaperSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C81653F1A859C1E0091D4B5 = {
+			isa = PBXGroup;
+			children = (
+				5EF3D6001B322C0E000243F9 /* LivePaperSample */,
+				740A54B81DF619FF00CC23AF /* LivePaperSDK */,
+				2C8165571A859C1E0091D4B5 /* LivePaperSDKTests */,
+				2C8165491A859C1E0091D4B5 /* Products */,
+				63A235E980C02368608C2FF8 /* Pods */,
+				2C81665A1A85F1080091D4B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C8165491A859C1E0091D4B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C8165531A859C1E0091D4B5 /* LivePaperSDKTests.xctest */,
+				5EF3D5FF1B322C0D000243F9 /* LivePaperSample.app */,
+				740A54B01DF619B000CC23AF /* LivePaperSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C8165571A859C1E0091D4B5 /* LivePaperSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				A94C117F1E4A9E0B00C7E82D /* TestAssets */,
+				A9A7E3E51E1C3A9F00D72E40 /* Operations */,
+				A95243AA1E2800FF00F10F29 /* Utils */,
+				74EEC5661BDEDCC5001CA90B /* LPPayoffTests.m */,
+				A94C117D1E48E9FC00C7E82D /* LPProjectTest.m */,
+				74D219741E4BF775001EAD1E /* LPSessionTests.m */,
+				A94C117A1E455B9700C7E82D /* LPBaseTestCase.m */,
+				A94C117C1E455BC400C7E82D /* LPBaseTestCase.h */,
+				74F5D1EE1BE153F600213F9F /* LPLinkTests.m */,
+				74EEC5681BDEE768001CA90B /* LPTriggerTests.m */,
+				2C8165581A859C1E0091D4B5 /* Supporting Files */,
+			);
+			path = LivePaperSDKTests;
+			sourceTree = "<group>";
+		};
+		2C8165581A859C1E0091D4B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C8165591A859C1E0091D4B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C81665A1A85F1080091D4B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74100C461BE917310049926A /* ImageIO.framework */,
+				2C81656A1A859DDB0091D4B5 /* UIKit.framework */,
+				2C8165621A859C820091D4B5 /* Foundation.framework */,
+				909C15882EC48A803B374898 /* libPods-LivePaperSDKTests.a */,
+				12CE3659071F37096EF228ED /* Pods_LivePaperSample.framework */,
+				0C6E89243C4A4FF250956AA5 /* libPods-LivePaperSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EF3D6001B322C0E000243F9 /* LivePaperSample */ = {
+			isa = PBXGroup;
+			children = (
+				A94C115E1E3AA83F00C7E82D /* FormHelpers */,
+				74D2198D1E4E2A93001EAD1E /* Controllers */,
+				5EF3D6011B322C0E000243F9 /* Supporting Files */,
+				5EF3D6051B322C0E000243F9 /* AppDelegate.h */,
+				5EF3D6061B322C0E000243F9 /* AppDelegate.m */,
+				5EF3D60B1B322C0E000243F9 /* Main.storyboard */,
+				5EF3D60E1B322C0E000243F9 /* Images.xcassets */,
+				5EF3D6101B322C0E000243F9 /* LaunchScreen.xib */,
+				A929767A1E3A6E7F005116B0 /* LivePaperSample-Bridging-Header.h */,
+			);
+			path = LivePaperSample;
+			sourceTree = "<group>";
+		};
+		5EF3D6011B322C0E000243F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3D6021B322C0E000243F9 /* Info.plist */,
+				5EF3D6031B322C0E000243F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63A235E980C02368608C2FF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FE8AB0D082BF19548B0BD00 /* Pods-LivePaperSDKTests.debug.xcconfig */,
+				59E406836E98524894DED1B3 /* Pods-LivePaperSDKTests.release.xcconfig */,
+				4BC93B5E937D33E6C525B683 /* Pods-LivePaperSample.debug.xcconfig */,
+				63335FC11EC2349305656873 /* Pods-LivePaperSample.release.xcconfig */,
+				935F963D86468D86A0E9F622 /* Pods-LivePaperSDK.debug.xcconfig */,
+				8A8193D9503582833CD7954F /* Pods-LivePaperSDK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		740A54B81DF619FF00CC23AF /* LivePaperSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A94C146C1E57BAC500C7E82D /* Classes */,
+				740A54BB1DF619FF00CC23AF /* Info.plist */,
+				A94C118D1E57757C00C7E82D /* release_strip_archs.sh */,
+			);
+			path = LivePaperSDK;
+			sourceTree = "<group>";
+		};
+		74D219761E4CDE14001EAD1E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				74D219BB1E523F98001EAD1E /* user_get.json */,
+				74D219B51E4E9E82001EAD1E /* payoff_get_rich.json */,
+				74D219B61E4E9E82001EAD1E /* payoff_get_url.json */,
+				74D219B21E4E9E0F001EAD1E /* payoff_list.json */,
+				74D219A51E4E6D52001EAD1E /* trigger_get_qr.json */,
+				74D219A61E4E6D52001EAD1E /* trigger_get_wm.json */,
+				74D219B91E4EAC10001EAD1E /* trigger_get_short.json */,
+				74D2199D1E4E52A2001EAD1E /* trigger_list.json */,
+				74D219981E4E4D00001EAD1E /* link_get.json */,
+				74D219991E4E4D00001EAD1E /* link_list.json */,
+				74D219791E4CEFE2001EAD1E /* project_get.json */,
+				74D219771E4CDE2A001EAD1E /* project_list.json */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		74D2197F1E4D48FD001EAD1E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				74D219801E4D48FD001EAD1E /* CellDataContainer.swift */,
+				74D219811E4D48FD001EAD1E /* TextCellDataContainer.swift */,
+				74D219821E4D48FD001EAD1E /* TextFieldTableViewCell.swift */,
+				74D219831E4D48FD001EAD1E /* TextFieldTableViewCell.xib */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		74D2198D1E4E2A93001EAD1E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				74D2198E1E4E2A93001EAD1E /* BaseTableViewController.swift */,
+				74D2198F1E4E2A93001EAD1E /* EntityDetailsTableViewController.swift */,
+				74D219901E4E2A93001EAD1E /* ProjectEntityTableViewController.swift */,
+				74D219911E4E2A93001EAD1E /* ProjectsTableViewController.swift */,
+				74D219921E4E2A93001EAD1E /* SelectProjectEntityTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A94C115E1E3AA83F00C7E82D /* FormHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				74D2197F1E4D48FD001EAD1E /* Base */,
+				74D2197D1E4D48D6001EAD1E /* SelectProjectEntityCell.swift */,
+				74D2198A1E4D4AE0001EAD1E /* SelectProjectEntityDataContainer.swift */,
+				74D219881E4D49EF001EAD1E /* SelectProjectEntityCell.xib */,
+			);
+			path = FormHelpers;
+			sourceTree = "<group>";
+		};
+		A94C117F1E4A9E0B00C7E82D /* TestAssets */ = {
+			isa = PBXGroup;
+			children = (
+				74D219761E4CDE14001EAD1E /* Network */,
+				A94C11801E4A9E0B00C7E82D /* forest.jpg */,
+				74D219A91E4E9185001EAD1E /* qrcode.jpeg */,
+				74D219A31E4E6B7D001EAD1E /* watermarked.jpeg */,
+				74D219AB1E4E98A9001EAD1E /* EXIF_5ppi.jpeg */,
+				74D219AC1E4E98A9001EAD1E /* JFIF_200ppi.jpg */,
+				74D219AD1E4E98A9001EAD1E /* No_PPI.jpg */,
+				A9F255131E7C98DC002A9BEB /* Photoshop_180ppi.jpeg */,
+			);
+			path = TestAssets;
+			sourceTree = "<group>";
+		};
+		A94C146C1E57BAC500C7E82D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A94C14771E57BAC500C7E82D /* Models */,
+				A94C148A1E57BAC500C7E82D /* Networking */,
+				A94C14AA1E57BAC500C7E82D /* Utils */,
+				A94C146D1E57BAC500C7E82D /* Configuration */,
+				A94C14711E57BAC500C7E82D /* LivePaperSDK.h */,
+				A94C14721E57BAC500C7E82D /* LPDate.h */,
+				A94C14731E57BAC500C7E82D /* LPDate.m */,
+				A94C14741E57BAC500C7E82D /* LPSession.h */,
+				A94C14751E57BAC500C7E82D /* LPSession.m */,
+				A94C14761E57BAC500C7E82D /* LPSessionPrivate.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A94C146D1E57BAC500C7E82D /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				A94C146E1E57BAC500C7E82D /* LPConfiguration.h */,
+				A94C146F1E57BAC500C7E82D /* LPConfiguration.m */,
+				A94C14701E57BAC500C7E82D /* LPStack.h */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		A94C14771E57BAC500C7E82D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A94C14781E57BAC500C7E82D /* LPAccount.h */,
+				A94C14791E57BAC500C7E82D /* LPAccount.m */,
+				A94C147A1E57BAC500C7E82D /* LPBaseEntity.h */,
+				A94C147B1E57BAC500C7E82D /* LPBaseEntity.m */,
+				A94C147C1E57BAC500C7E82D /* LPBaseEntityPrivate.h */,
+				A94C147D1E57BAC500C7E82D /* LPLink.h */,
+				A94C147E1E57BAC500C7E82D /* LPLink.m */,
+				A94C147F1E57BAC500C7E82D /* LPPayoff.h */,
+				A94C14801E57BAC500C7E82D /* LPPayoff.m */,
+				A94C14811E57BAC500C7E82D /* LPProject.h */,
+				A94C14821E57BAC500C7E82D /* LPProject.m */,
+				A94C14831E57BAC500C7E82D /* LPProjectEntity.h */,
+				A94C14841E57BAC500C7E82D /* LPProjectEntity.m */,
+				A94C14851E57BAC500C7E82D /* LPProjectEntityPrivate.h */,
+				A94C14861E57BAC500C7E82D /* LPTrigger.h */,
+				A94C14871E57BAC500C7E82D /* LPTrigger.m */,
+				A94C14881E57BAC500C7E82D /* LPUser.h */,
+				A94C14891E57BAC500C7E82D /* LPUser.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A94C148A1E57BAC500C7E82D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A94C148B1E57BAC500C7E82D /* Operations */,
+				A94C14A51E57BAC500C7E82D /* Utils */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A94C148B1E57BAC500C7E82D /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				A94C14961E57BAC500C7E82D /* LPBase */,
+				A94C149C1E57BAC500C7E82D /* LPGetImageOperation.h */,
+				A94C149D1E57BAC500C7E82D /* LPGetImageOperation.m */,
+				A94C149E1E57BAC500C7E82D /* LPGetTokenOperation.h */,
+				A94C149F1E57BAC500C7E82D /* LPGetTokenOperation.m */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		A94C14961E57BAC500C7E82D /* LPBase */ = {
+			isa = PBXGroup;
+			children = (
+				A94C14971E57BAC500C7E82D /* LPAuthenticatedNetworkOperation.h */,
+				A94C14981E57BAC500C7E82D /* LPAuthenticatedNetworkOperation.m */,
+				A94C14991E57BAC500C7E82D /* LPBaseNetworkOperation.h */,
+				A94C149A1E57BAC500C7E82D /* LPBaseNetworkOperation.m */,
+				A94C149B1E57BAC500C7E82D /* LRBaseNetworkOperation+Private.h */,
+			);
+			path = LPBase;
+			sourceTree = "<group>";
+		};
+		A94C14A51E57BAC500C7E82D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A94C14A61E57BAC500C7E82D /* LPContainerResource.h */,
+				A94C14A71E57BAC500C7E82D /* LPContainerResource.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A94C14AA1E57BAC500C7E82D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A94C14AB1E57BAC500C7E82D /* LPErrors.h */,
+				A94C14AC1E57BAC500C7E82D /* LPErrors.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A95243AA1E2800FF00F10F29 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				74F5D1E81BE1487900213F9F /* HPTestData.h */,
+				74F5D1E91BE1487900213F9F /* HPTestData.m */,
+				A95243AB1E2800FF00F10F29 /* HPTestHelper.h */,
+				A95243AC1E2800FF00F10F29 /* HPTestHelper.m */,
+				74D219A01E4E69C5001EAD1E /* HPMockHelper.h */,
+				74D219A11E4E69C5001EAD1E /* HPMockHelper.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A9A7E3E51E1C3A9F00D72E40 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				A9A7E3E61E1C3A9F00D72E40 /* LPGetTokenOperationTest.m */,
+				A9C2E7401E1C52E1001AF3D9 /* LPBaseNetworkingTestCase.h */,
+				A95243A71E27FC3100F10F29 /* LPBaseNetworkingTestCase.m */,
+				A9C2E73C1E1C5215001AF3D9 /* LRBaseNetworkOperationTest.m */,
+				A9A7E3EB1E1C3B7000D72E40 /* LPAuthenticatedNetworkOperationTest.m */,
+				A9A7E3E71E1C3A9F00D72E40 /* TestData */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		A9A7E3E71E1C3A9F00D72E40 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				A9A7E3E81E1C3A9F00D72E40 /* GetTokenSuccess.json */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		740A54AD1DF619B000CC23AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94C14BF1E57BAC500C7E82D /* LPProject.h in Headers */,
+				A94C14C41E57BAC500C7E82D /* LPTrigger.h in Headers */,
+				A94C14BD1E57BAC500C7E82D /* LPPayoff.h in Headers */,
+				A94C14B81E57BAC500C7E82D /* LPBaseEntity.h in Headers */,
+				A94C14B61E57BAC500C7E82D /* LPAccount.h in Headers */,
+				A94C14D81E57BAC500C7E82D /* LPGetTokenOperation.h in Headers */,
+				A94C14BB1E57BAC500C7E82D /* LPLink.h in Headers */,
+				A94C14C31E57BAC500C7E82D /* LPProjectEntityPrivate.h in Headers */,
+				A94C14D11E57BAC500C7E82D /* LPAuthenticatedNetworkOperation.h in Headers */,
+				A94C14D51E57BAC500C7E82D /* LRBaseNetworkOperation+Private.h in Headers */,
+				A94C14D31E57BAC500C7E82D /* LPBaseNetworkOperation.h in Headers */,
+				A94C14DE1E57BAC500C7E82D /* LPContainerResource.h in Headers */,
+				A94C14B31E57BAC500C7E82D /* LPSession.h in Headers */,
+				A94C14B11E57BAC500C7E82D /* LPDate.h in Headers */,
+				A94C14C61E57BAC500C7E82D /* LPUser.h in Headers */,
+				A94C14B01E57BAC500C7E82D /* LivePaperSDK.h in Headers */,
+				A94C14C11E57BAC500C7E82D /* LPProjectEntity.h in Headers */,
+				A94C14E21E57BAC500C7E82D /* LPErrors.h in Headers */,
+				A94C14AD1E57BAC500C7E82D /* LPConfiguration.h in Headers */,
+				A94C14AF1E57BAC500C7E82D /* LPStack.h in Headers */,
+				A94C14BA1E57BAC500C7E82D /* LPBaseEntityPrivate.h in Headers */,
+				A94C14B51E57BAC500C7E82D /* LPSessionPrivate.h in Headers */,
+				A94C14D61E57BAC500C7E82D /* LPGetImageOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C8165521A859C1E0091D4B5 /* LivePaperSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C81655F1A859C1E0091D4B5 /* Build configuration list for PBXNativeTarget "LivePaperSDKTests" */;
+			buildPhases = (
+				30CE41521B1F014415ED45D1 /* [CP] Check Pods Manifest.lock */,
+				2C81654F1A859C1E0091D4B5 /* Sources */,
+				2C8165501A859C1E0091D4B5 /* Frameworks */,
+				2C8165511A859C1E0091D4B5 /* Resources */,
+				4EA5DF2BE33DD25193948EDE /* [CP] Embed Pods Frameworks */,
+				29D0941D5A04E9A4EAE59971 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9A7E3C61E1C2E3F00D72E40 /* PBXTargetDependency */,
+			);
+			name = LivePaperSDKTests;
+			productName = LivePaperSDKTests;
+			productReference = 2C8165531A859C1E0091D4B5 /* LivePaperSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EF3D5FE1B322C0D000243F9 /* LivePaperSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EF3D6231B322C0E000243F9 /* Build configuration list for PBXNativeTarget "LivePaperSample" */;
+			buildPhases = (
+				3A0C5FDDE34637B7F679736D /* [CP] Check Pods Manifest.lock */,
+				5EF3D5FB1B322C0D000243F9 /* Sources */,
+				5EF3D5FC1B322C0D000243F9 /* Frameworks */,
+				5EF3D5FD1B322C0D000243F9 /* Resources */,
+				A991C3881DFF271C002DE2B4 /* CopyFiles */,
+				A9F255121E7C9692002A9BEB /* ShellScript */,
+				34CCFF692F1875222B7D9CD6 /* [CP] Embed Pods Frameworks */,
+				77C966BE4DE634AC3DFF46AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A991C3861DFF270E002DE2B4 /* PBXTargetDependency */,
+			);
+			name = LivePaperSample;
+			productName = LivePaperSample;
+			productReference = 5EF3D5FF1B322C0D000243F9 /* LivePaperSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		740A54AF1DF619B000CC23AF /* LivePaperSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740A54B51DF619B000CC23AF /* Build configuration list for PBXNativeTarget "LivePaperSDK" */;
+			buildPhases = (
+				8EC00BABDFDDBF221B4EE908 /* [CP] Check Pods Manifest.lock */,
+				740A54AB1DF619B000CC23AF /* Sources */,
+				740A54AC1DF619B000CC23AF /* Frameworks */,
+				740A54AD1DF619B000CC23AF /* Headers */,
+				740A54AE1DF619B000CC23AF /* Resources */,
+				B3A1A490B3F7B28E43AA5A77 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LivePaperSDK;
+			productName = LivePaperSDK;
+			productReference = 740A54B01DF619B000CC23AF /* LivePaperSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C8165401A859C1E0091D4B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Hewlett-Packard";
+				TargetAttributes = {
+					2C8165521A859C1E0091D4B5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = FRPPB7Q4CV;
+						TestTargetID = 5EF3D5FE1B322C0D000243F9;
+					};
+					5EF3D5FE1B322C0D000243F9 = {
+						CreatedOnToolsVersion = 6.3.2;
+						LastSwiftMigration = 0820;
+					};
+					740A54AF1DF619B000CC23AF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = FRPPB7Q4CV;
+						ProvisioningStyle = Automatic;
+					};
+					A9F254DC1E7B402E002A9BEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FRPPB7Q4CV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2C8165431A859C1E0091D4B5 /* Build configuration list for PBXProject "LivePaperSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C81653F1A859C1E0091D4B5;
+			productRefGroup = 2C8165491A859C1E0091D4B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EF3D5FE1B322C0D000243F9 /* LivePaperSample */,
+				740A54AF1DF619B000CC23AF /* LivePaperSDK */,
+				2C8165521A859C1E0091D4B5 /* LivePaperSDKTests */,
+				A9F254DC1E7B402E002A9BEB /* LivePaperSDK-Universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C8165511A859C1E0091D4B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94C11811E4A9E0B00C7E82D /* forest.jpg in Resources */,
+				74D219B01E4E98A9001EAD1E /* No_PPI.jpg in Resources */,
+				74D2199B1E4E4D00001EAD1E /* link_list.json in Resources */,
+				74D219A41E4E6B7D001EAD1E /* watermarked.jpeg in Resources */,
+				74D219AE1E4E98A9001EAD1E /* EXIF_5ppi.jpeg in Resources */,
+				A9A7E3EA1E1C3AA000D72E40 /* GetTokenSuccess.json in Resources */,
+				74D2199F1E4E52A2001EAD1E /* trigger_list.json in Resources */,
+				74D219BA1E4EAC10001EAD1E /* trigger_get_short.json in Resources */,
+				74D219781E4CDE2A001EAD1E /* project_list.json in Resources */,
+				74D2199A1E4E4D00001EAD1E /* link_get.json in Resources */,
+				74D219B71E4E9E82001EAD1E /* payoff_get_rich.json in Resources */,
+				74D219BC1E523F98001EAD1E /* user_get.json in Resources */,
+				74D219A81E4E6D52001EAD1E /* trigger_get_wm.json in Resources */,
+				74D219AF1E4E98A9001EAD1E /* JFIF_200ppi.jpg in Resources */,
+				A9F255141E7C98DC002A9BEB /* Photoshop_180ppi.jpeg in Resources */,
+				74D219AA1E4E9185001EAD1E /* qrcode.jpeg in Resources */,
+				74D219B81E4E9E82001EAD1E /* payoff_get_url.json in Resources */,
+				74D219B41E4E9E0F001EAD1E /* payoff_list.json in Resources */,
+				74D2197A1E4CEFE2001EAD1E /* project_get.json in Resources */,
+				74D219A71E4E6D52001EAD1E /* trigger_get_qr.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF3D5FD1B322C0D000243F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74D219891E4D49EF001EAD1E /* SelectProjectEntityCell.xib in Resources */,
+				5EF3D60D1B322C0E000243F9 /* Main.storyboard in Resources */,
+				5EF3D6121B322C0E000243F9 /* LaunchScreen.xib in Resources */,
+				5EF3D60F1B322C0E000243F9 /* Images.xcassets in Resources */,
+				74D219871E4D48FD001EAD1E /* TextFieldTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740A54AE1DF619B000CC23AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94C118E1E57757C00C7E82D /* release_strip_archs.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29D0941D5A04E9A4EAE59971 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LivePaperSDKTests/Pods-LivePaperSDKTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30CE41521B1F014415ED45D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		34CCFF692F1875222B7D9CD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LivePaperSample/Pods-LivePaperSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A0C5FDDE34637B7F679736D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4EA5DF2BE33DD25193948EDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LivePaperSDKTests/Pods-LivePaperSDKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77C966BE4DE634AC3DFF46AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LivePaperSample/Pods-LivePaperSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EC00BABDFDDBF221B4EE908 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9F254E01E7B4038002A9BEB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "######################\n# Options\n######################\n\nREVEAL_ARCHIVE_IN_FINDER=true\n\nFRAMEWORK_NAME=\"${PROJECT_NAME}\"\n\nSIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${FRAMEWORK_NAME}.framework\"\n\nDEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${FRAMEWORK_NAME}.framework\"\n\nUNIVERSAL_LIBRARY_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal\"\n\nFRAMEWORK=\"${UNIVERSAL_LIBRARY_DIR}/${FRAMEWORK_NAME}.framework\"\n\n\n######################\n# Build Frameworks\n######################\n\nxcodebuild -workspace ${PROJECT_NAME}.xcworkspace -scheme ${PROJECT_NAME} -sdk iphonesimulator -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator 2>&1\n\nxcodebuild -workspace ${PROJECT_NAME}.xcworkspace -scheme ${PROJECT_NAME} -sdk iphoneos -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos 2>&1\n\n######################\n# Create directory for universal\n######################\n\nrm -rf \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${FRAMEWORK}\"\n\n\n######################\n# Copy files Framework\n######################\n\ncp -r \"${DEVICE_LIBRARY_PATH}/.\" \"${FRAMEWORK}\"\n\n\n######################\n# Make an universal binary\n######################\n\nlipo \"${SIMULATOR_LIBRARY_PATH}/${FRAMEWORK_NAME}\" \"${DEVICE_LIBRARY_PATH}/${FRAMEWORK_NAME}\" -create -output \"${FRAMEWORK}/${FRAMEWORK_NAME}\" | echo\n\n# For Swift framework, Swiftmodule needs to be copied in the universal framework\nif [ -d \"${SIMULATOR_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" ]; then\ncp -f ${SIMULATOR_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule/* \"${FRAMEWORK}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" | echo\n                                                                      fi\n                                                                      \n                                                                      if [ -d \"${DEVICE_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" ]; then\n                                                                      cp -f ${DEVICE_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule/* \"${FRAMEWORK}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" | echo\n                                                                      fi\n                                                                      \n                                                                      ######################\n                                                                      # On Release, copy the result to release directory\n                                                                      ######################\n                                                                      OUTPUT_DIR=\"${PROJECT_DIR}/Output/${FRAMEWORK_NAME}-Universal/\"\n                                                                      \n                                                                      rm -rf \"$OUTPUT_DIR\"\n                                                                      mkdir -p \"$OUTPUT_DIR\"\n                                                                      \n                                                                      cp -r \"${FRAMEWORK}\" \"$OUTPUT_DIR\"\n                                                                      \n                                                                      if [ ${REVEAL_ARCHIVE_IN_FINDER} = true ]; then\n                                                                      open \"${OUTPUT_DIR}/\"\n                                                                      fi\n";
+		};
+		A9F255121E7C9692002A9BEB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/LivePaperSDK.framework/release_strip_archs.sh\"";
+		};
+		B3A1A490B3F7B28E43AA5A77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LivePaperSDK/Pods-LivePaperSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C81654F1A859C1E0091D4B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94C11821E4A9F6300C7E82D /* LPPayoffTests.m in Sources */,
+				A94C11831E4A9F7500C7E82D /* LPProjectTest.m in Sources */,
+				A94C11871E4B8ACA00C7E82D /* LPBaseTestCase.m in Sources */,
+				74D219A21E4E69C5001EAD1E /* HPMockHelper.m in Sources */,
+				A94C11861E4B8AC800C7E82D /* LPLinkTests.m in Sources */,
+				74D219751E4BF775001EAD1E /* LPSessionTests.m in Sources */,
+				A94C11851E4B8AC400C7E82D /* LPTriggerTests.m in Sources */,
+				A94C11841E4B8ABF00C7E82D /* HPTestData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF3D5FB1B322C0D000243F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74D219941E4E2A93001EAD1E /* EntityDetailsTableViewController.swift in Sources */,
+				74D2198B1E4D4AE0001EAD1E /* SelectProjectEntityDataContainer.swift in Sources */,
+				74D219931E4E2A93001EAD1E /* BaseTableViewController.swift in Sources */,
+				74D219951E4E2A93001EAD1E /* ProjectEntityTableViewController.swift in Sources */,
+				74D219851E4D48FD001EAD1E /* TextCellDataContainer.swift in Sources */,
+				74D219961E4E2A93001EAD1E /* ProjectsTableViewController.swift in Sources */,
+				74D219861E4D48FD001EAD1E /* TextFieldTableViewCell.swift in Sources */,
+				74D219971E4E2A93001EAD1E /* SelectProjectEntityTableViewController.swift in Sources */,
+				5EF3D6071B322C0E000243F9 /* AppDelegate.m in Sources */,
+				74D2197E1E4D48D6001EAD1E /* SelectProjectEntityCell.swift in Sources */,
+				74D219841E4D48FD001EAD1E /* CellDataContainer.swift in Sources */,
+				5EF3D6041B322C0E000243F9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740A54AB1DF619B000CC23AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94C14C21E57BAC500C7E82D /* LPProjectEntity.m in Sources */,
+				A94C14E31E57BAC500C7E82D /* LPErrors.m in Sources */,
+				A94C14D21E57BAC500C7E82D /* LPAuthenticatedNetworkOperation.m in Sources */,
+				A94C14B91E57BAC500C7E82D /* LPBaseEntity.m in Sources */,
+				A94C14C71E57BAC500C7E82D /* LPUser.m in Sources */,
+				A94C14C01E57BAC500C7E82D /* LPProject.m in Sources */,
+				A94C14D41E57BAC500C7E82D /* LPBaseNetworkOperation.m in Sources */,
+				A94C14BE1E57BAC500C7E82D /* LPPayoff.m in Sources */,
+				A94C14D71E57BAC500C7E82D /* LPGetImageOperation.m in Sources */,
+				A94C14AE1E57BAC500C7E82D /* LPConfiguration.m in Sources */,
+				A94C14B21E57BAC500C7E82D /* LPDate.m in Sources */,
+				A94C14C51E57BAC500C7E82D /* LPTrigger.m in Sources */,
+				A94C14D91E57BAC500C7E82D /* LPGetTokenOperation.m in Sources */,
+				A94C14B41E57BAC500C7E82D /* LPSession.m in Sources */,
+				A94C14B71E57BAC500C7E82D /* LPAccount.m in Sources */,
+				A94C14DF1E57BAC500C7E82D /* LPContainerResource.m in Sources */,
+				A94C14BC1E57BAC500C7E82D /* LPLink.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A991C3861DFF270E002DE2B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 740A54AF1DF619B000CC23AF /* LivePaperSDK */;
+			targetProxy = A991C3851DFF270E002DE2B4 /* PBXContainerItemProxy */;
+		};
+		A9A7E3C61E1C2E3F00D72E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EF3D5FE1B322C0D000243F9 /* LivePaperSample */;
+			targetProxy = A9A7E3C51E1C2E3F00D72E40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EF3D60B1B322C0E000243F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EF3D60C1B322C0E000243F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EF3D6101B322C0E000243F9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EF3D6111B322C0E000243F9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C81655A1A859C1E0091D4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C81655B1A859C1E0091D4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C8165601A859C1E0091D4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE8AB0D082BF19548B0BD00 /* Pods-LivePaperSDKTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = FRPPB7Q4CV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LivePaperSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hp.livepaper.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivePaperSample.app/LivePaperSample";
+			};
+			name = Debug;
+		};
+		2C8165611A859C1E0091D4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E406836E98524894DED1B3 /* Pods-LivePaperSDKTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = FRPPB7Q4CV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LivePaperSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hp.livepaper.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivePaperSample.app/LivePaperSample";
+			};
+			name = Release;
+		};
+		5EF3D61F1B322C0E000243F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC93B5E937D33E6C525B683 /* Pods-LivePaperSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LivePaperSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hp.livepaper.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LivePaperSample/LivePaperSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EF3D6201B322C0E000243F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63335FC11EC2349305656873 /* Pods-LivePaperSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = LivePaperSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hp.livepaper.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LivePaperSample/LivePaperSample-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		740A54B61DF619B000CC23AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 935F963D86468D86A0E9F622 /* Pods-LivePaperSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FRPPB7Q4CV;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = LivePaperSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hp.livepaper.LivePaperSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		740A54B71DF619B000CC23AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A8193D9503582833CD7954F /* Pods-LivePaperSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FRPPB7Q4CV;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = LivePaperSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hp.livepaper.LivePaperSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A9F254DE1E7B402E002A9BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FRPPB7Q4CV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9F254DF1E7B402E002A9BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FRPPB7Q4CV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C8165431A859C1E0091D4B5 /* Build configuration list for PBXProject "LivePaperSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C81655A1A859C1E0091D4B5 /* Debug */,
+				2C81655B1A859C1E0091D4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C81655F1A859C1E0091D4B5 /* Build configuration list for PBXNativeTarget "LivePaperSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8165601A859C1E0091D4B5 /* Debug */,
+				2C8165611A859C1E0091D4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EF3D6231B322C0E000243F9 /* Build configuration list for PBXNativeTarget "LivePaperSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF3D61F1B322C0E000243F9 /* Debug */,
+				5EF3D6201B322C0E000243F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740A54B51DF619B000CC23AF /* Build configuration list for PBXNativeTarget "LivePaperSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740A54B61DF619B000CC23AF /* Debug */,
+				740A54B71DF619B000CC23AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F254DD1E7B402E002A9BEB /* Build configuration list for PBXAggregateTarget "LivePaperSDK-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F254DE1E7B402E002A9BEB /* Debug */,
+				A9F254DF1E7B402E002A9BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C8165401A859C1E0091D4B5 /* Project object */;
+}

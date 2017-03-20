@@ -1,0 +1,39 @@
+{
+    "link": {
+        "id": "ful-OhVkSg2C5XrNG1yhVQ",
+        "name": "rich link",
+        "dateCreated": "2017-02-10T19:27:41.000+0000",
+        "dateModified": "2017-02-10T19:27:41.000+0000",
+        "tags": [],
+        "projectId": "4b13Xz",
+        "link": [
+                 {
+                 "rel": "self",
+                 "href": "https://stage.livepaperapi.com/api/v2/projects/4b13Xz/links/ful-OhVkSg2C5XrNG1yhVQ"
+                 },
+                 {
+                 "rel": "scanCount",
+                 "href": "https://stage.livepaperapi.com/analytics/v2/scan/count?id=ful-OhVkSg2C5XrNG1yhVQ"
+                 },
+                 {
+                 "rel": "uniqueDeviceCount",
+                 "href": "https://stage.livepaperapi.com/analytics/v2/scan/uniquecount?id=ful-OhVkSg2C5XrNG1yhVQ"
+                 },
+                 {
+                 "rel": "project",
+                 "href": "https://stage.livepaperapi.com/api/v2/projects/4b13Xz"
+                 },
+                 {
+                 "rel": "payoff",
+                 "href": "https://stage.livepaperapi.com/api/v2/projects/4b13Xz/payoffs/SSjH03heTMy28s4-AYo98A"
+                 },
+                 {
+                 "rel": "trigger",
+                 "href": "https://stage.livepaperapi.com/api/v2/projects/4b13Xz/triggers/eqHTASLET8qwCBZzYyHGoA"
+                 }
+                 ],
+        "payoffId": "SSjH03heTMy28s4-AYo98A",
+        "triggerId": "eqHTASLET8qwCBZzYyHGoA",
+        "state": "active"
+    }
+}

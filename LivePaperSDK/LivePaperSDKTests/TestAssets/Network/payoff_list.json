@@ -1,0 +1,72 @@
+{
+    "offset": 1,
+    "itemsRetrieved": 229,
+    "totalCount": 229,
+    "payoffs": [
+                {
+                "id": "SSjH03heTMy28s4-AYo98A",
+                "name": "Some rich test",
+                "dateCreated": "2017-02-10T19:26:18.000+0000",
+                "dateModified": "2017-02-10T19:26:18.000+0000",
+                "tags": [],
+                "projectId": "4b13Xz",
+                "link": [
+                         {
+                         "rel": "self",
+                         "href": "https://stage.livepaperapi.com/api/v2/projects/4b13Xz/payoffs/SSjH03heTMy28s4-AYo98A"
+                         },
+                         {
+                         "rel": "project",
+                         "href": "https://stage.livepaperapi.com/api/v2/projects/4b13Xz"
+                         },
+                         {
+                         "rel": "scanCount",
+                         "href": "https://stage.livepaperapi.com/analytics/v2/scan/count?id=SSjH03heTMy28s4-AYo98A"
+                         },
+                         {
+                         "rel": "uniqueDeviceCount",
+                         "href": "https://stage.livepaperapi.com/analytics/v2/scan/uniquecount?id=SSjH03heTMy28s4-AYo98A"
+                         }
+                         ],
+                "type": "richpayoff",
+                "richPayoff": {
+                "version": "1.0",
+                "public": {
+                "url": "http://www.google.com"
+                },
+                "private": {
+                "data": "eyJ0eXBlIjoiY29udGVudCBhY3Rpb24gbGF5b3V0IiwidmVyc2lvbiI6IjEiLCJkYXRhIjp7ImNvbnRlbnQiOnsidHlwZSI6ImltYWdlIiwibGFiZWwiOiJMaW5rIFRlY2hub2xvZ3kiLCJkYXRhIjp7IlVSTCI6Imh0dHBzOlwvXC9zdGVnYXNpcy5saW5rY3JlYXRpb25zdHVkaW8uY29tXC9hc3NldHNcL2xpbmstdGVjaG5vbG9neS1sb2dvLTNmNDRjZGQ1N2ZmZDU2ZDQ5NDEzN2MxMjc1ZmNjYzdkOGU2NjdiY2Q5ZTc3NTQ2NTEwZjM1ZWE5ZmQ3NjQ2MDcucG5nIn19LCJhY3Rpb25zIjpbeyJsYWJlbCI6IkxpbmsgRGV2ZWxvcGVyIFNpdGUiLCJpY29uIjp7ImlkIjoiNTM2In0sImRhdGEiOnsiVVJMIjoiaHR0cHM6XC9cL215bGlua3MubGlua2NyZWF0aW9uc3R1ZGlvLmNvbVwvZGV2ZWxvcGVyIn0sInR5cGUiOiJ3ZWJwYWdlIn0seyJsYWJlbCI6IlNoYXJlIiwiaWNvbiI6eyJpZCI6IjUyNyJ9LCJkYXRhIjp7IlVSTCI6IlRha2UgYSBsb29rIGF0IHRoaXMgc2l0ZTogaHR0cHM6XC9cL215bGlua3MubGlua2NyZWF0aW9uc3R1ZGlvLmNvbSJ9LCJ0eXBlIjoic2hhcmUifV19fQ==",
+                "content-type": "custom-base64"
+                }
+                }
+                },
+                {
+                "id": "E6TLPYPCR9u88hnIg64jqg",
+                "name": "Untitled",
+                "dateCreated": "2017-02-10T00:52:36.000+0000",
+                "dateModified": "2017-02-10T00:52:36.000+0000",
+                "tags": [],
+                "projectId": "4b13Xz",
+                "link": [
+                         {
+                         "rel": "self",
+                         "href": "https://stage.livepaperapi.com/api/v2/projects/4b13Xz/payoffs/E6TLPYPCR9u88hnIg64jqg"
+                         },
+                         {
+                         "rel": "project",
+                         "href": "https://stage.livepaperapi.com/api/v2/projects/4b13Xz"
+                         },
+                         {
+                         "rel": "scanCount",
+                         "href": "https://stage.livepaperapi.com/analytics/v2/scan/count?id=E6TLPYPCR9u88hnIg64jqg"
+                         },
+                         {
+                         "rel": "uniqueDeviceCount",
+                         "href": "https://stage.livepaperapi.com/analytics/v2/scan/uniquecount?id=E6TLPYPCR9u88hnIg64jqg"
+                         }
+                         ],
+                "url": "http://www.espn.com",
+                "type": "url"
+                }
+        ]
+}

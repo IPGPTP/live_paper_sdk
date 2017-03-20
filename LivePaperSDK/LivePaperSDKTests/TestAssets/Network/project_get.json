@@ -1,0 +1,20 @@
+{ "project" :{
+    "id": "0xkbvb",
+    "name": "Frosted Flakes 123",
+    "dateCreated": "2015-09-25T20:32:13.000+0000",
+    "dateModified": "2017-01-27T01:13:23.000+0000",
+    "link": [
+             {
+             "rel": "self",
+             "href": "https://stage.livepaperapi.com/api/v2/projects/0xkbvb"
+             },
+             {
+             "rel": "account",
+             "href": "https://stage.livepaperapi.com/auth/v2/accounts/account_id"
+             }
+             ],
+    "accountId": "jt6sjt7kkz9moi2z9rabgnp83a7rjpww",
+    "createdBy": {
+        "emailId": "alejandro.mendez@hp.com"
+    }
+}}
