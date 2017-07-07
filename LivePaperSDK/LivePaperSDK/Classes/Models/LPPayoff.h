@@ -26,6 +26,7 @@ typedef NS_ENUM(NSInteger, LPPayoffType) {
 @property(nonatomic) NSURL *url;
 @property(nonatomic) NSDictionary *richPayoffData;
 @property(nonatomic) NSURL *richPayoffPublicUrl;
+@property(nonatomic) NSDictionary *customData;
 
 /**
  Creates a payoff using a dictionary.

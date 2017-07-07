@@ -226,6 +226,11 @@
     return [[self entityName] stringByAppendingString:@"s"];
 }
 
++ (NSDictionary *)dictionaryFromObject:(id)object {
+    return [object isKindOfClass:[NSDictionary class]] ? (NSDictionary *)object : nil;
+}
+
+
 #pragma mark Private methods
 
 + (NSError *)malformedResponseError:(id)responseObject {

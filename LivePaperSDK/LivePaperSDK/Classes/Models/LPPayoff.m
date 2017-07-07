@@ -12,7 +12,7 @@
 
 static NSString * const LPPayoffTypeUrlValue = @"url";
 static NSString * const LPPayoffTypeRichValue = @"richpayoff";
-static NSString * const LPPayoffTypeCustomValue = @"custom";
+static NSString * const LPPayoffTypeCustomValue = @"customData";
 static NSString * const LPPayoffTypeAdvancedValue = @"advanced";
 
 @interface LPPayoff () <LPBaseEntity>
@@ -54,9 +54,9 @@ static NSString * const LPPayoffTypeAdvancedValue = @"advanced";
                 break;
             }
             case LPPayoffTypeRich:{
-                NSDictionary *richPayoff = dictionary[@"richPayoff"];
-                NSDictionary *private = richPayoff[@"private"];
-                NSDictionary *public = richPayoff[@"public"];
+                NSDictionary *richPayoff = [[self class] dictionaryFromObject:dictionary[@"richPayoff"]];
+                NSDictionary *private = [[self class] dictionaryFromObject:richPayoff[@"private"]];
+                NSDictionary *public = [[self class] dictionaryFromObject:richPayoff[@"public"]];
                 if (!richPayoff || !private || !public) {
                     return nil;
                 }
@@ -68,8 +68,17 @@ static NSString * const LPPayoffTypeAdvancedValue = @"advanced";
                 break;
             }
             case LPPayoffTypeCustom :
-                if ([type isEqualToString:LPPayoffTypeAdvancedValue]) {
-                    
+                if ([type isEqualToString:LPPayoffTypeCustomValue]) {
+                    NSDictionary *customData = [[self class] dictionaryFromObject:dictionary[@"customData"]];
+                    if (!customData) {
+                        customData = dictionary;
+                    }
+                    NSDictionary *privateData = [[self class] dictionaryFromObject:customData[@"privateData"]];
+                    NSDictionary *dataDictionary = [[self class] dictionaryFromObject:privateData[@"data"]];
+                    if (!dataDictionary) {
+                        return nil;
+                    }
+                    self.customData = dataDictionary;                    
                 }
         }
         

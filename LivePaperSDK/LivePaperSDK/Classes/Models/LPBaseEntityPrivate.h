@@ -59,6 +59,6 @@
 + (NSString *)baseUrlWithSession:(LPSession *)session identifier:(NSString *)identifier;
 + (NSArray *)entityListFromDictionary:(NSDictionary *)dictionary session:(LPSession *)session error:(NSError **)error;
 + (NSError *)badRequestParametersError:(id)parameters;
-
++ (NSDictionary *)dictionaryFromObject:(id)object;
 @end
 
