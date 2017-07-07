@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LivePaperSDK'
-  s.version          = '2.0.0'
+  s.version          = '2.0.1'
   s.summary          = 'Link Developer iOS library'
   s.description      = 'Provides an interface to the "Link" service by HP for creating watermarked images, QR codes, and mobile-friendly shortened URLs.'
   s.homepage         = 'https://mylinks.linkcreationstudio.com/developer/libraries/ios/'

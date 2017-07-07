@@ -7,7 +7,8 @@
 //
 
 #import "LPBaseNetworkOperation.h"
-#import "LpSession.h"
+#import <LivePaperSDK/LpSession.h>
+
 
 @interface LPGetTokenOperation : LPBaseNetworkOperation
 
